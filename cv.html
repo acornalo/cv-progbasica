@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sandra Haro CV </title>
+    <link rel="icon" type="image/x-icon" 
+        href="	https://www.pngmart.com/files/19/CV-Resume-Transparent-Background.png">
+    <link rel="stylesheet" href="cv.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div>
+        <h1> Sandra Haro <img src="https://randomuser.me/api/portraits/women/79.jpg" /> </h1>
+        <h2> DISEÑADORA E ILUSTRADORA </h2>
+    </div>
+    <div>
+        <h3> DATOS PERSONALES <button class="ampliar_btn" id = "personalDataButton" onclick="showText(this, 'personalDataText')"> + </button></h3>
+        <span class="hide" id="personalDataText">
+         <ul>
+            <li>Edad: 34 años</li>
+            <li>Domicilio: Santa Fe, 2354. Bs. As.</li>
+            <li>Email: sharo@gmail.com</li>
+            <li>Teléfono: 11111888</li>
+         </ul>
+        </span>
+    </div>
+    <div>
+        <h3> EXPERIENCIA LABORAL <button class="ampliar_btn" id="showExperienciaLaboralButton" onclick="showText(this, 'laboralDataText')"> + </button> </h3>
+        <span class="hide" id="laboralDataText">
+        <h4> Creadora de contenido </h4>
+        <h5> Empresa de Contenido SRL (2020 - Actualidad) </h5>
+        <ul>
+            <li> Gestión y diseño de redes sociales.</li>
+            <li> Diseño web. </li>
+            <li>Diseño de carteles, flyers, etc. </li>
+            <li>Diseño de la app móvil.</li>
+        </ul>
+        <h4> Gestora de Redes Sociales (2018 - 2020) </h4>
+        <h5> Empresa de Resdes Sociales SRL </h5>
+        <ul>
+            <li> Mantenimiento de páginas web y redes sociales.</li>
+            <li> Creación de banners y contenido gráfico.</li>
+            <li> Redacción de contenido para blogs. </li>
+        </ul>
+        </span>
+    </div>
+    <div>
+        <h3> ESTUDIOS <button class="ampliar_btn" id="showEstudiosButton" onclick="showText(this, 'estudioDataText')"> + </button></h3>
+        <span class="hide" id="estudioDataText">
+        <h4> Universidad El Salvador </h4>
+        <h5> Diseño Gráfico - Terminado </h5>
+        <h4> Curso Online Capacitarte.org </h4>
+        <h5> Community Manager - Terminado </h5>
+        </span>
+    </div>
+    <div>
+        <h3> HABILIDADES <button class="ampliar_btn" id="showHabilidadesButton" onclick="showText(this, 'habilidadesDataText')"> + </button> </h3>
+        <span class="hide" id="habilidadesDataText">
+        <ul>
+            <li> Diseño de páginas web. </li>
+            <li> Diseño de logotipo. </li>
+            <li> Gestión de redes sociales </li>
+            <li> Creación de contenido. </li>
+        </ul>
+        </span>
+    </div>
+    <div>
+        <h3> IDIOMAS <button class="ampliar_btn" id="showIdiomasButton" onclick="showText(this, 'idiomasDataText')"> + </button> </h3>
+        <span class="hide" id="idiomasDataText">
+        <h4> Inglés Avanzado</h4>
+        <h4> Portugues Básico</h4>
+        </span>
+    </div>
+
+    <script src="cv.js"></script>
+
+</body>
+</html>
